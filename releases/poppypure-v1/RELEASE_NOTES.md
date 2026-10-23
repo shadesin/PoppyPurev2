@@ -1,6 +1,6 @@
 # PoppyPure v2 — model poppypure-v1
 
-Prepared release notes. This release has not been uploaded or published yet.
+First release of the local prediction app and the verified poppypure-v1 model bundle.
 
 ## Included
 
@@ -10,10 +10,10 @@ Prepared release notes. This release has not been uploaded or published yet.
 - Reserved-test accuracy **91.46% (75/82)**; macro F1 **0.9138**.
 - Capture specifications, evaluation reports and pinned dependencies in the source repository.
 
-## Attach these assets
+## Downloads
 
-1. `poppypure-v1.zip` — complete verified model bundle; extract into the source checkout root.
-2. `poppypure-v1.zip.sha256` — download checksum.
+1. [poppypure-v1.zip](https://github.com/shadesin/PoppyPurev2/releases/download/v1.0.0/poppypure-v1.zip) — complete verified model bundle, 40.9 MiB; extract into the source checkout root.
+2. [poppypure-v1.zip.sha256](https://github.com/shadesin/PoppyPurev2/releases/download/v1.0.0/poppypure-v1.zip.sha256) — download checksum.
 
 The asset ZIP includes `models/poppypure-v1/`, not a copy of the app or raw dataset. Users also need the source checkout. GitHub's automatically generated source archives do not include model weights.
 
@@ -32,10 +32,10 @@ uv run --locked python app/server.py --device cpu --open
 
 Install uv first. The application opens at http://127.0.0.1:8765. No GPU or external dataset drive is needed. Model predictions depend on image quality and are discrete by-volume classes, not laboratory measurements. macOS was tested; Windows dependencies were checked but no Windows-machine test was performed.
 
-## Publication checklist for later
+## Verification
 
-- Push the approved source commit to `shadesin/PoppyPurev2` when authorized.
-- Create a release/tag for that exact commit, attach both assets and use these notes as the release description.
-- Update the README's preparation-status paragraph when the downloads are actually published.
+The ZIP contains 52 files, each verified against its release checksum. A clean source checkout with a fresh environment and this extracted model started the app and reproduced CLI predictions. The raw dataset and Backup Plus drive are not required for prediction.
 
-No publication action is authorized by preparing these files.
+Archive SHA-256: `adc394eac6a7fcdede9ee146242f389a22100b2548f8068ed567221090069d9c`.
+
+For full photo capture and installation instructions, see the [project README](https://github.com/shadesin/PoppyPurev2#readme).

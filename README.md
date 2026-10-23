@@ -16,7 +16,7 @@ The original 548-image allocation was **384 training / 82 validation / 82 test**
 
 ## Download the model and run the app
 
-**Release preparation status:** the model ZIP and checksum have been prepared locally. They have not yet been uploaded to GitHub. The download steps below apply once the source and release assets are published; on the current development Mac, the installed environment and model are already present.
+**Model download:** get the verified bundle from [Release v1.0.0](https://github.com/shadesin/PoppyPurev2/releases/tag/v1.0.0): **[poppypure-v1.zip](https://github.com/shadesin/PoppyPurev2/releases/download/v1.0.0/poppypure-v1.zip)** (40.9 MiB) and **[checksum](https://github.com/shadesin/PoppyPurev2/releases/download/v1.0.0/poppypure-v1.zip.sha256)**. On the current development Mac, the installed environment and model are already present.
 
 ### 1. Get the source
 
@@ -31,7 +31,7 @@ You can also use GitHub's **Code → Download ZIP**, extract it and open a termi
 
 ### 2. Get the trained model
 
-Open [Releases for shadesin/PoppyPurev2](https://github.com/shadesin/PoppyPurev2/releases) and download the attached **`poppypure-v1.zip`** and **`poppypure-v1.zip.sha256`** assets. Save them beside this README.
+Open [Release v1.0.0](https://github.com/shadesin/PoppyPurev2/releases/tag/v1.0.0) and download the attached **`poppypure-v1.zip`** and **`poppypure-v1.zip.sha256`** assets using the links above. Save them beside this README.
 
 A [GitHub Release](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases) is a versioned download page. Our attached ZIP supplies the trained model bundle; GitHub's automatic **Source code (zip)** download contains the repository source and does not include the ignored model weights. The model ZIP contains weights, saved preprocessing/scaler settings, class mapping, checksums and model documentation. It does not contain the raw training dataset.
 

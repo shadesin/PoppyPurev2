@@ -40,7 +40,7 @@ Do not copy private settings, credentials or personal test photos into the repos
 
 Recommended distribution: attach the complete **`models/poppypure-v1/`** bundle as a ZIP to a GitHub Release. This retains the model, class mapping, preprocessing recipe, checksums and model documentation together. Large File Storage is another option if you choose to manage weights in the repository.
 
-The prepared local assets are `poppypure-v1.zip` and `poppypure-v1.zip.sha256` in the repository root. The ZIP contains exactly the 51 release-listed files plus `RELEASE_MANIFEST.json`; Python caches and unrelated local files are excluded. The committed [asset manifest](releases/poppypure-v1/ASSET_MANIFEST.json) records the ZIP SHA-256, byte count and checkpoint identity.
+The downloadable assets are attached to [Release v1.0.0](https://github.com/shadesin/PoppyPurev2/releases/tag/v1.0.0). Local copies are `poppypure-v1.zip` and `poppypure-v1.zip.sha256` in the repository root. The ZIP contains exactly the 51 release-listed files plus `RELEASE_MANIFEST.json`; Python caches and unrelated local files are excluded. The committed [asset manifest](releases/poppypure-v1/ASSET_MANIFEST.json) records the ZIP SHA-256, byte count and checkpoint identity.
 
 To verify the prepared or downloaded ZIP:
 
@@ -65,7 +65,7 @@ PoppyPurev2/
       ...
 ```
 
-The README links to the repository's Releases page and documents the preparation status. No asset has been uploaded. Prepared [release notes](releases/poppypure-v1/RELEASE_NOTES.md) list the two files to attach to a future release.
+The README provides direct model/checksum links and end-user setup instructions. [Release notes](releases/poppypure-v1/RELEASE_NOTES.md) describe the downloadable bundle. Subsequent model versions should get separate versioned releases and checksum manifests.
 
 ## Local Git repository
 
@@ -79,7 +79,7 @@ git diff
 git diff --cached --stat
 ```
 
-Stage and commit intended changes following the inclusion/exclusion lists above. **The user requested a local commit only; pushing and release publication are pending.**
+Stage and commit intended changes following the inclusion/exclusion lists above. The original local-only commit instruction was followed; the user subsequently pushed the source and authorized publishing the model release and its download instructions.
 
 When the user authorizes publishing, the configured remote can receive `main`:
 
@@ -87,7 +87,7 @@ When the user authorizes publishing, the configured remote can receive `main`:
 git push -u origin main
 ```
 
-A future GitHub Release should target the published source commit and attach both prepared assets. Creating the ZIP or committing it locally does not create a GitHub Release. Keep Backup Plus data and earlier experiment outputs locally; pushing source does not back those up.
+A GitHub Release targets a published source commit and supplies the two downloadable assets. Creating a ZIP or committing code locally does not create a GitHub Release. Keep Backup Plus data and earlier experiment outputs locally; pushing source does not back those up.
 
 ## Running a checkout
 

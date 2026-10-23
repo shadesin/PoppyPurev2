@@ -478,6 +478,11 @@ Frozen Phase 2 SHA-256 values:
 - Formatting/lint passed for all 35 Python files; JavaScript and Mac launcher syntax passed. Reviewed staging: source, app, configs, tests, metadata, reports, documentation and small release records; no raw-data links, environments, model weights, experiment archives, feature/embedding caches, generated verification screenshots or release ZIP/checksum were included. Preserved byte-level CSV/JSON identities with `.gitattributes` and passed Git's staged whitespace check.
 - Stopped the verification server and removed the temporary installed checkout. The initial local commit includes this workflow entry and the complete reviewed source. Remote remains configured as `https://github.com/shadesin/PoppyPurev2.git`; pushing, tags and GitHub Release creation/uploads remain pending under the user's explicit instruction.
 
+### 50. Started the user-authorized GitHub Release publication — 24 October 2026
+
+- The user explicitly asked the assistant to upload/publish the model release. Confirmed the user had already pushed source commit `6726fafc36ff0b64a6581edd9f1afc6f23123c78` to `origin/main`. Authenticated release access with the existing local Git credential, kept exclusively in process memory; no credentials were printed or written to project files. GitHub reported no existing releases.
+- Reverified the model ZIP and all 52 packaged files before upload. Updated README, Git guide and release notes with the intended `v1.0.0` release and direct ZIP/checksum download URLs, replacing obsolete unpublished-status instructions. Prepared the documentation commit for publication with the release. Publication and remote-download verification results will follow in the next entry.
+
 ## Logging instruction — recorded with this file
 
 The user requested `workflow.md` as the maintained project history. Future important actions must be appended here with their purpose, changes, validation, outcomes, and remaining limitations. Keep proposed techniques distinct from completed experiments, and preserve earlier entries when recording corrections or revised decisions.
