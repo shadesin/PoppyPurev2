@@ -1,12 +1,8 @@
 # PoppyPure v2
 
-Reproducible image classification of poppy seeds mixed with semolina. The seven labels are **semolina adulteration percentages by volume**: `0`, `10`, `20`, `30`, `40`, `50`, and `100`. Includes the machine-learning workflow, a command-line predictor and a minimal local browser app. See [PLAN.md](PLAN.md) for the phased work.
+Reproducible image classification of poppy seeds mixed with semolina. The seven labels are **semolina adulteration percentages by volume**: `0`, `10`, `20`, `30`, `40`, `50`, and `100`. Includes the machine-learning workflow, a command-line predictor and a minimal local browser app.
 
-See [workflow.md](workflow.md) for the maintained history of important steps, decisions, checks, and findings.
-
-See [GIT_GUIDE.md](GIT_GUIDE.md) for what to commit, what stays local and how to share the trained model bundle. Model weights are ignored by Git, so a source checkout needs the separate bundle in `models/poppypure-v1/` before prediction can work.
-
-See [MODEL_TRAINING_PLAN.md](MODEL_TRAINING_PLAN.md) for the planned classical, handcrafted-MLP, ResNet18/ResNet50 head comparisons, fine-tuning and final evaluation sequence.
+Model weights are distributed separately from the source. Follow the download and setup instructions below to install the bundle in `models/poppypure-v1/` before prediction.
 
 ## Status
 
@@ -212,4 +208,4 @@ uv run --locked poppypure report-final
 - Refit membership, training curves, source snapshot and pretest checks: `experiments/runs/phase6-v1/`.
 - All 82 primary/reference predictions, metrics and bootstrap replicates: `experiments/runs/phase6-v1/test/`.
 - Technical report, five PNG/PDF figure sets and seven error images: `reports/phase6/`.
-- The first pretest attempt is preserved separately; a float32-versus-float64 verification calculation was corrected before test access. The accepted retry produced identical checkpoint bytes. See [workflow](workflow.md).
+- The first pretest attempt is preserved separately; a float32-versus-float64 verification calculation was corrected before test access. The accepted retry produced identical checkpoint bytes.

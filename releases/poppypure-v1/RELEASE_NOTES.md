@@ -17,7 +17,7 @@ First release of the local prediction app and the verified poppypure-v1 model bu
 
 The asset ZIP includes `models/poppypure-v1/`, not a copy of the app or raw dataset. Users also need the source checkout. GitHub's automatically generated source archives do not include model weights.
 
-The repository's `releases/poppypure-v1/ASSET_MANIFEST.json` records the expected ZIP checksum and exact model identity. Build/verification commands are documented in `GIT_GUIDE.md`; end-user download, verification, extraction and launch instructions are in `README.md`.
+The repository's `releases/poppypure-v1/ASSET_MANIFEST.json` records the expected ZIP checksum and exact model identity. Use `uv run --locked python scripts/package_model.py build` to package an existing verified model bundle. End-user download, verification, extraction and launch instructions are in `README.md`.
 
 ## Run
 

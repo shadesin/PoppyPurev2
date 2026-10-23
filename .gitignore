@@ -20,3 +20,10 @@ reports/**/*.log
 .DS_Store
 .matplotlib-cache/
 .plot-cache/
+
+# Local planning documents
+/AGENTS.md
+/GIT_GUIDE.md
+/MODEL_TRAINING_PLAN.md
+/PLAN.md
+/workflow.md
