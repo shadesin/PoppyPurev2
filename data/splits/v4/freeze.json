@@ -1,0 +1,8 @@
+{
+  "artifacts": {
+    "assignments.csv": "cf7e5f8e2ed1f7dd3537bd62c611f54bcc55decc0a5e8ad681f641a4f7db88c0",
+    "protocol.json": "0af742424bf95496d8fceee2b116292677f7b6eabbe05919f14a48d05eb4a2c9"
+  },
+  "manifest_sha256": "d5358c61f2f42c4dbd5c4efc92e4d62ba54caff998ecbf631f665e7e1fbc5829",
+  "protocol_id": "stratified_preparation_train_validation_test_v4"
+}

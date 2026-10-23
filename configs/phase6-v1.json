@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "model_version": "poppypure-v1",
+  "selection_record": "reports/phase5/MODEL_SELECTION.json",
+  "selection_record_sha256": "053af8ab3afbe6ad896d570518e72ae8f1afd197b7d4a33ad22b327afb63d73a",
+  "seed": 42,
+  "refit_partitions": ["train", "validation"],
+  "refit_images": 466,
+  "refit_order": "frozen v4 assignments order",
+  "head_epochs": 28,
+  "validation_during_refit": false,
+  "fine_tuning": false,
+  "reference": {
+    "role": "comparison_only; cannot replace locked primary using test results",
+    "selected_run": "svm_input1_C10",
+    "representation": "whole",
+    "family": "combined",
+    "C": 10.0,
+    "kernel": "rbf",
+    "gamma": "scale",
+    "probability": false,
+    "refit_images": 466
+  },
+  "test_images": 82,
+  "test_batch_size": 6,
+  "bootstrap": {
+    "replicates": 2000,
+    "seed": 1042,
+    "unit": "preparation_group_id",
+    "stratification": "true volume class",
+    "interval_percentiles": [2.5, 97.5]
+  }
+}

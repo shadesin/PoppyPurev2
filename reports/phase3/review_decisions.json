@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex visual review",
+  "review_date_local": "2026-10-14",
+  "partition": "train",
+  "reviewed_images": 28,
+  "selection": "One median-sorted image ID per class/background/folder-magnification training stratum; IDs in summary.json",
+  "sheets": [
+    "crop_review_black_4x.jpg",
+    "crop_review_black_micro.jpg",
+    "crop_review_white_4x.jpg",
+    "crop_review_white_micro.jpg"
+  ],
+  "crop_decision": "Keep as a candidate for validation comparison",
+  "observations": [
+    "Lower-edge TECNO markings visible in the originals are outside the cropped views in the 28 reviewed examples.",
+    "Both poppy seeds and semolina remain visible in reviewed mixed-class crops; pure endpoints retain their material.",
+    "Crop overview preserves visible grain shapes; native detail regions expose finer texture, blur and lighting variation.",
+    "Background and some internal grid lines remain; the crop is not background segmentation."
+  ],
+  "mask_decision": "Not implemented or enabled in this pass",
+  "processing_scope": "384 training images passed integrity/processing checks; only the 28 selected examples received this visual review",
+  "model_comparison": "Pending; no accuracy or processing-improvement result claimed"
+}

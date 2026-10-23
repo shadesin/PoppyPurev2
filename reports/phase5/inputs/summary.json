@@ -1,0 +1,38 @@
+{
+  "config_sha256": "ab923088fc36db1aa90da16599232a9533cab3182bfa5cc20033cfc2fa1a1d60",
+  "images": 28,
+  "mask": "none",
+  "partitions": [
+    "train"
+  ],
+  "review_ids": [
+    "img_0455",
+    "img_0013",
+    "img_0094",
+    "img_0169",
+    "img_0250",
+    "img_0332",
+    "img_0498",
+    "img_0478",
+    "img_0034",
+    "img_0112",
+    "img_0188",
+    "img_0271",
+    "img_0356",
+    "img_0523",
+    "img_0414",
+    "img_0053",
+    "img_0132",
+    "img_0212",
+    "img_0293",
+    "img_0379",
+    "img_0541",
+    "img_0437",
+    "img_0071",
+    "img_0149",
+    "img_0232",
+    "img_0315",
+    "img_0394",
+    "img_0560"
+  ]
+}

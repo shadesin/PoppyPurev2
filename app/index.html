@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Check poppy seed images for semolina adulteration with your local PoppyPure model.">
+  <title>PoppyPure · Check a sample</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <a class="brand" href="/" aria-label="PoppyPure home">
+        <img src="/favicon.svg" width="30" height="30" alt="">
+        PoppyPure<span class="brand-version">v2</span>
+      </a>
+      <span class="local-badge"><span class="dot"></span> Runs on your Mac</span>
+    </header>
+
+    <main>
+      <section class="intro" aria-labelledby="page-title">
+        <p class="eyebrow">POPPY SEED ADULTERATION</p>
+        <h1 id="page-title">Check a sample.</h1>
+        <p class="subtitle">Add a close-up photo to predict semolina adulteration by volume.</p>
+      </section>
+
+      <div class="workspace">
+        <section class="image-panel" aria-labelledby="image-title">
+          <div class="panel-heading">
+            <h2 id="image-title"><span class="step">01</span> Your image</h2>
+            <button id="clear" class="text-button" type="button" hidden>Clear</button>
+          </div>
+          <input id="file-input" type="file" accept="image/jpeg,image/png,image/webp,.jpg,.jpeg,.png,.webp" hidden>
+          <div id="drop-zone" class="drop-zone" role="button" tabindex="0" aria-label="Choose an image, or drag and drop one here" aria-describedby="file-help">
+            <div id="empty-preview" class="empty-preview">
+              <svg class="upload-icon" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+                <rect x="7" y="9" width="34" height="30" rx="7" stroke="currentColor" stroke-width="1.5"/>
+                <circle cx="17" cy="19" r="3" stroke="currentColor" stroke-width="1.5"/>
+                <path d="m9 34 10-9 7 6 6-5 8 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <p class="drop-title">Drop your photo here</p>
+              <p class="paste-help">or paste an image with <kbd id="paste-shortcut">⌘ V</kbd></p>
+              <span class="choose-label">Choose image <span aria-hidden="true">↗</span></span>
+            </div>
+            <img id="preview" class="preview" alt="Selected sample" hidden>
+            <span id="replace-hint" class="replace-hint" hidden>Click to replace image</span>
+          </div>
+          <div class="image-footer">
+            <p id="file-help">JPEG, PNG or WebP · Up to 20 MB</p>
+            <p id="file-name" hidden></p>
+          </div>
+          <p id="error" class="error" role="alert" hidden></p>
+          <button id="retry" class="retry-button" type="button" hidden>Try again</button>
+        </section>
+
+        <section id="result-panel" class="result-panel" aria-labelledby="result-title" aria-busy="false">
+          <h2 id="result-title"><span class="step">02</span> Prediction</h2>
+          <div class="result-main">
+            <p class="result-label">SEMOLINA ADULTERATION</p>
+            <div class="percentage-line"><output id="percentage" aria-label="Predicted adulteration">—</output><span class="percent-sign">%</span></div>
+            <p class="volume-label">by volume</p>
+            <p id="status" class="status" role="status" aria-live="polite">Waiting for your image</p>
+          </div>
+          <div class="levels" aria-label="Seven possible adulteration levels">
+            <span data-level="0">0</span><span data-level="10">10</span><span data-level="20">20</span><span data-level="30">30</span><span data-level="40">40</span><span data-level="50">50</span><span data-level="100">100</span>
+          </div>
+          <p class="result-note">One of seven trained levels.<br>0% = pure poppy · 100% = semolina</p>
+        </section>
+      </div>
+
+      <details class="capture-guide">
+        <summary><span>For a clearer photo</span><span class="summary-plus" aria-hidden="true">+</span></summary>
+        <div class="tips">
+          <p><strong>Spread evenly.</strong> Use a thin layer with little overlap; avoid heaps and separated ingredient patches.</p>
+          <p><strong>Keep it plain.</strong> Use matte white or black. Fill the frame with material, including the corners.</p>
+          <p><strong>Get the detail.</strong> Shoot straight down, tap to focus and use bright, even light without harsh shadows.</p>
+          <p><strong>Use the original.</strong> Choose the full-resolution photo, without filters, digital zoom or screenshot compression.</p>
+        </div>
+      </details>
+      <p class="prediction-note">A model prediction, not a laboratory measurement. Capture conditions can affect the result.</p>
+    </main>
+    <footer><span class="privacy-mark" aria-hidden="true">◌</span> Photos are processed on this Mac. The app keeps no image history.</footer>
+  </div>
+</body>
+</html>

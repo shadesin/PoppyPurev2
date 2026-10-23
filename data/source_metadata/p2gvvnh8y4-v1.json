@@ -1,0 +1,105 @@
+{
+  "id": "p2gvvnh8y4",
+  "doi": {
+    "id": "10.17632/p2gvvnh8y4.1",
+    "status": "allocated",
+    "prefix": "10.17632"
+  },
+  "name": "Digital Image dataset for Poppy seed adulteration with Semolina ",
+  "description": "It contains high-quality images of Poppy seed adulteration with Semolina (Suji) at different proportions:- 10%, 20%, 30%, 40%, 50%, and 100% adulterant.\n\n",
+  "version": 1,
+  "contributors": [
+    {
+      "profile_id": "8b663158-c3ae-33d1-ad64-dfaf3ceab24a",
+      "first_name": "Tanmay",
+      "last_name": "Sarkar",
+      "orcid_id": "0000-0003-3869-1604"
+    },
+    {
+      "first_name": "Alok",
+      "last_name": "Mukherjee"
+    },
+    {
+      "first_name": "Kingshuk",
+      "last_name": "Chatterjee"
+    }
+  ],
+  "files": [
+    {
+      "filename": "Poppy seed adulteration detection-20230602T064002Z-001.zip",
+      "id": "b52523c0-2b25-4841-882f-b39c7dcbc8cc",
+      "content_details": {
+        "id": "c429a338-e9a2-4fb7-8c2a-8dd7d3d34498",
+        "sha256_hash": "0b29d07414e8e6d85f899e22c3464d61f456336799144ec3ce129d8b0bb3000d",
+        "content_type": "application/zip",
+        "size": 1405891275,
+        "created_date": "2023-06-02T09:43:32.635Z",
+        "download_url": "https://data.mendeley.com/public-files/datasets/p2gvvnh8y4/files/b52523c0-2b25-4841-882f-b39c7dcbc8cc/file_downloaded",
+        "view_url": "https://data.mendeley.com/public-files/datasets/p2gvvnh8y4/files/b52523c0-2b25-4841-882f-b39c7dcbc8cc/file_viewed",
+        "download_expiry_time": "2126-10-12T21:12:30.135415273Z"
+      },
+      "metrics": {
+        "downloads": 0,
+        "previews": 0
+      },
+      "size": 1405891275,
+      "status": "COMPLETED"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "available": true,
+      "publish_date": "2023-06-15T12:06:35.048Z"
+    }
+  ],
+  "articles": [],
+  "categories": [
+    {
+      "id": "data.elsevier.com/vocabulary/OmniScience/Concept-253045634",
+      "label": "Biological Database"
+    },
+    {
+      "id": "data.elsevier.com/vocabulary/OmniScience/Concept-256997396",
+      "label": "Food Adulteration"
+    }
+  ],
+  "institutions": [],
+  "metrics": {
+    "views": 0,
+    "file_downloads": 0,
+    "file_previews": 0
+  },
+  "available": true,
+  "size": 1405891275,
+  "owner": {
+    "profile_id": "8b663158-c3ae-33d1-ad64-dfaf3ceab24a",
+    "first_name": "Tanmay",
+    "last_name": "Sarkar",
+    "orcid_id": "0000-0003-3869-1604"
+  },
+  "channel": "WEB",
+  "owner_id": "8b663158-c3ae-33d1-ad64-dfaf3ceab24a",
+  "publish_date": "2023-06-15T12:06:35.048Z",
+  "data_licence": {
+    "id": "01d9c749-3c4d-4431-9df3-620b2dcfe144",
+    "description": "You can share, copy and modify this dataset so long as you give appropriate credit, provide a link to the CC BY license, and indicate if changes were made, but you may not do so in a way that suggests the rights holder has endorsed you or your use of the dataset. Note that further permission may be required for any content within the dataset that is identified as belonging to a third party.",
+    "url": "http://creativecommons.org/licenses/by/4.0",
+    "category": "Creative",
+    "short_name": "CC BY 4.0",
+    "full_name": "Creative Commons Attribution 4.0 International"
+  },
+  "related_links": [],
+  "funders": [],
+  "customer_id": "7377952c-6404-4428-bbfc-77242cfc301e",
+  "modified_on": "2023-06-02T09:43:32.619Z",
+  "created_on": "2023-06-02T06:36:36.139Z",
+  "confidential": false,
+  "links": {
+    "view": "https://data.mendeley.com/datasets/p2gvvnh8y4"
+  },
+  "repository": {
+    "id": "MENDELEY_DATA",
+    "name": "Mendeley Data"
+  }
+}

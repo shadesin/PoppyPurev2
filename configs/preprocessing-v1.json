@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "status": "candidate_for_development_comparison",
+  "long_side": 768,
+  "crop_fraction_ltrb": [0.05, 0.05, 0.95, 0.88],
+  "resize": "aspect_preserving_lanczos_no_upscale",
+  "colour_mode": "RGB",
+  "orientation": "EXIF transpose before crop",
+  "metadata": "discard after orientation",
+  "mask": "none",
+  "illumination_correction": "none",
+  "tile_size": 512,
+  "tile_positions": "four corners and centre within cropped region",
+  "selection": "Designed from training-image visual review; compare with whole-image reference on validation before model recipe lock"
+}

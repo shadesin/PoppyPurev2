@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "model_version": "poppypure-v1",
+  "archive_sha256": "adc394eac6a7fcdede9ee146242f389a22100b2548f8068ed567221090069d9c",
+  "checkpoint_sha256": "520d47d80da1c3d8f5c2d689974a6ecbceee792dba41eae4c162fd072b4d69d1",
+  "archive_files_verified": 52,
+  "environment": "macOS; fresh virtual environment; CPU inference",
+  "source": "staged Git checkout before initial commit",
+  "checks": [
+    "fresh source checkout has no model until ZIP extraction",
+    "pinned dependency installation succeeds offline from local uv cache",
+    "ZIP and all packaged file checksums pass",
+    "corrupt download rejected before extraction",
+    "extraction creates documented models/poppypure-v1 layout",
+    "app starts with extracted model",
+    "real image upload agrees with CLI prediction and probabilities",
+    "no raw dataset, pretrained weights, feature caches or embedding caches required",
+    "sealed model and runtime source remain unchanged"
+  ],
+  "test_set_accessed": false,
+  "windows_execution_tested": false
+}

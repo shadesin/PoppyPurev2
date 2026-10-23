@@ -1,0 +1,55 @@
+{
+  "archive_sha256": "0b29d07414e8e6d85f899e22c3464d61f456336799144ec3ce129d8b0bb3000d",
+  "manifest_sha256": "d5358c61f2f42c4dbd5c4efc92e4d62ba54caff998ecbf631f665e7e1fbc5829",
+  "archive_entries": 569,
+  "image_entries": 569,
+  "layout_counts": {
+    "loose": 14,
+    "structured": 555
+  },
+  "unique_byte_images": 562,
+  "exact_duplicate_groups": 7,
+  "images_with_conflicting_magnification_folders": 8,
+  "pixel_duplicate_groups_with_different_bytes": 0,
+  "near_duplicate_candidate_pairs": 1,
+  "near_duplicate_reviews": {
+    "same_scene_shifted_view_keep_in_same_group": 1
+  },
+  "decode_counts": {
+    "ok": 569
+  },
+  "decision_counts": {
+    "excluded": 21,
+    "included": 548
+  },
+  "class_counts_original": {
+    "10": 83,
+    "20": 75,
+    "30": 82,
+    "40": 83,
+    "50": 82,
+    "0": 82,
+    "100": 82
+  },
+  "class_counts_included": {
+    "10": 81,
+    "20": 73,
+    "30": 80,
+    "40": 81,
+    "50": 80,
+    "0": 73,
+    "100": 80
+  },
+  "capture_dates": {
+    "2021-12-09": 83,
+    "2021-12-10": 116,
+    "2021-12-11": 124,
+    "2021-12-13": 82,
+    "2021-11-30": 41,
+    "2021-11-27": 41,
+    "2021-12-08": 42,
+    "2021-12-06": 40
+  },
+  "conservative_groups": 7,
+  "grouping_limitation": "Preparation IDs are absent. Class-level conservative groups do not allow seven-class evaluation on unseen preparations. Capture groups are metadata only, not proven independent samples."
+}

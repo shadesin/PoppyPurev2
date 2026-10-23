@@ -1,0 +1,16 @@
+{
+  "corrected_figures": {
+    "selected_per_class.pdf": "58406fe31d2c89e62c5a74aa10ab6fc88728562c43a05d91e7ec40126253c4f9",
+    "selected_per_class.png": "a91a24da5684bd5ea0e02d06e7fdd839e4db2abe80e283837168c35cdca12952"
+  },
+  "corrected_review_script_sha256": "61ae1295d8670c0a80d4b2fd5608655a44e46948cf544f4ab533ccf2196512fe",
+  "metrics_changed": false,
+  "model_selection_changed": false,
+  "original_figures": {
+    "selected_per_class.pdf": "9aa09fd722457ea905f4ad02c9cb62a053fe113d131419d4f9a10b5b1c5325e4",
+    "selected_per_class.png": "3266484b744e2e89d372dd24110dcb537d52de59ed729f6de75d8e509f804ecc"
+  },
+  "original_review_script_sha256": "e4fd9d48756b03381ce945deeb27b3fc2d6f64919ee006196ac28a34a1bb2ddb",
+  "reason": "Move legend outside axes so no class bar is obscured",
+  "test_used": false
+}

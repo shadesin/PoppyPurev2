@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "preprocessing_config": "configs/preprocessing-v1.json",
+  "colour": {"spaces": ["HSV", "Lab"], "bins_per_channel": 16},
+  "lbp": {"method": "uniform", "points_radii": [[8, 1], [16, 2]]},
+  "glcm": {
+    "levels": 32,
+    "distances": [1, 2, 4],
+    "angles_degrees": [0, 45, 90, 135],
+    "symmetric": true,
+    "normalized": true,
+    "properties": ["contrast", "dissimilarity", "homogeneity", "energy", "correlation", "ASM"]
+  },
+  "mask": "none",
+  "variants": ["whole", "crop", "crop_detail"],
+  "detail_pooling": "mean and population standard deviation of per-region descriptors; one row per source image"
+}

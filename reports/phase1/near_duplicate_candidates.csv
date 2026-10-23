@@ -1,0 +1,2 @@
+left_image_id,right_image_id,phash_distance,dhash_distance,same_pixels,same_label,review_decision
+img_0181,img_0198,12,2,False,True,same_scene_shifted_view_keep_in_same_group

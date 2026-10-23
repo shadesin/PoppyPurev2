@@ -1,0 +1,8 @@
+{
+  "artifacts": {
+    "assignments.csv": "1f7a14e871c99e73c74207be6c2c637c697f225563bbc4a7fa228ee8eb213bbf",
+    "protocol.json": "fec2ad27925868e6fc34a0ab3ac9ecced2a9f56b17f68a1d49682237b268dafa"
+  },
+  "manifest_sha256": "d5358c61f2f42c4dbd5c4efc92e4d62ba54caff998ecbf631f665e7e1fbc5829",
+  "protocol_id": "three_conditions_development_white_micro_holdout_v2"
+}

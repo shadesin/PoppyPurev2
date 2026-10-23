@@ -1,0 +1,15 @@
+{
+  "active_figure_files": 24,
+  "correct_predictions": 76,
+  "deep_runs_accepted": 8,
+  "error_gallery_images": 6,
+  "manifest_and_split_unchanged": true,
+  "model_selection_sha256": "053af8ab3afbe6ad896d570518e72ae8f1afd197b7d4a33ad22b327afb63d73a",
+  "original_selection_script_preserved": true,
+  "selected_checkpoint_sha256": "0903ec0ea94501411fe1377c55ac892ea67f9fc0243785699882754b4bb45ae0",
+  "status": "passed",
+  "test_used": false,
+  "training_source_matches_snapshot": true,
+  "validation_images": 82,
+  "visual_candidates_considered": 29
+}

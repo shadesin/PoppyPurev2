@@ -1,0 +1,8 @@
+{
+  "artifacts": {
+    "assignments.csv": "bf4154ba06cea7f4ea63af9c049efda77c299576c5a254f2a2b2cbf9c8855163",
+    "protocol.json": "423c02419967d7c2e30e9824801f3ea86a1eadca2ef37ed38b902feba93c422b"
+  },
+  "manifest_sha256": "d5358c61f2f42c4dbd5c4efc92e4d62ba54caff998ecbf631f665e7e1fbc5829",
+  "protocol_id": "black_development_white_holdout_v1"
+}

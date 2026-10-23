@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "review_date_local": "2026-10-14",
+  "reviewer": "Codex visual review",
+  "reviewed_partition": "train",
+  "images_reviewed": 28,
+  "sheets_reviewed": 4,
+  "control": "low_gradient_appearance",
+  "selection_rule": "On cropped images at long side 256, select gradient magnitude <= image's 20th percentile, excluding a two-pixel border",
+  "observations": [
+    "Selections include dark empty regions in many black-background examples.",
+    "Selections also include smooth interiors of poppy seeds and semolina, especially on white backgrounds.",
+    "This is an appearance control, not verified background-only segmentation."
+  ],
+  "decision": "Retain as diagnostic control, exclude from visual-model winner selection; do not attribute its score solely to background",
+  "sheets": [
+    "data/features/controls-v1/review_black_4x.jpg",
+    "data/features/controls-v1/review_black_micro.jpg",
+    "data/features/controls-v1/review_white_4x.jpg",
+    "data/features/controls-v1/review_white_micro.jpg"
+  ]
+}

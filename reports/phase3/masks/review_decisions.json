@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "review_date_local": "2026-10-14",
+  "reviewer": "Codex visual review",
+  "partition": "train",
+  "images_reviewed": 56,
+  "sheets_reviewed": 8,
+  "selection": "Two images per class/background/magnification stratum: median image ID plus lowest-sharpness alternative",
+  "overlay_key": "Red indicates pixels the mask would remove",
+  "decisions": {
+    "lightness_otsu": "reject_as_general_foreground_mask",
+    "colour_or_lightness": "reject_as_general_foreground_mask"
+  },
+  "findings": [
+    "Corrected dark-tail polarity retains much of the visible material on many black-background examples.",
+    "On white backgrounds, both methods remove substantial visible material, including pure semolina examples img_0541, img_0547, img_0560 and img_0561.",
+    "Colour thresholding favours warmer particles and removes pale regions; lightness thresholding follows shadows and grain texture instead of a complete material boundary.",
+    "Dense low-sharpness black-background images such as img_0254 and img_0355 still expose background-polarity/threshold failures."
+  ],
+  "enabled_mask": "none",
+  "feature_policy": "Use unmasked valid RGB regions for whole/crop/detail descriptors; no zero-filled artificial mask edges",
+  "quantitative_scope": "Coverage fractions are pixel counts, not segmentation accuracy or adulteration by volume",
+  "model_accuracy": "Not evaluated in Phase 3"
+}

@@ -1,0 +1,26 @@
+[project]
+name = "poppypurev2"
+seed = 42
+classes_volume_percent = [0, 10, 20, 30, 40, 50, 100]
+
+[sources]
+canonical_url = "https://data.mendeley.com/datasets/p2gvvnh8y4/1"
+canonical_doi = "10.17632/p2gvvnh8y4.1"
+related_subset_url = "https://data.mendeley.com/datasets/nx8m9kxy26/1"
+related_subset_doi = "10.17632/nx8m9kxy26.1"
+
+[paths]
+source_archives = "data/source_archives"
+raw = "data/raw"
+manifest = "data/manifest.csv"
+splits = "data/splits"
+runs = "experiments/runs"
+models = "models"
+reports = "reports/generated"
+
+[evaluation]
+primary_metric = "macro_f1"
+group_key = "evaluation_group_id"
+preparation_group_key = "preparation_group_id"
+holdout_policy = "stratified_preparation_train_validation_test_v4"
+protocol = "data/splits/v4/protocol.json"

@@ -1,0 +1,15 @@
+sha256,image_id,canonical_image_id,volume_percent,source_path,label_conflict,magnification_conflict
+432997e7f6b64769297a60d1e231479d68266ddbee1ac83ff86cac075a061b8a,img_0407,img_0407,0,Poppy seed adulteration detection/Poppy seed background(white)/4X/IMG_20211130_135307_136(1).jpg,False,False
+432997e7f6b64769297a60d1e231479d68266ddbee1ac83ff86cac075a061b8a,img_0408,img_0407,0,Poppy seed adulteration detection/Poppy seed background(white)/4X/IMG_20211130_135307_136.jpg,False,False
+eeb832155d922b1ca628fe7ae62ef70b473492eb5e4a4322242dcf43999fc849,img_0412,img_0412,0,Poppy seed adulteration detection/Poppy seed background(white)/4X/IMG_20211130_135331_787(1).jpg,False,False
+eeb832155d922b1ca628fe7ae62ef70b473492eb5e4a4322242dcf43999fc849,img_0413,img_0412,0,Poppy seed adulteration detection/Poppy seed background(white)/4X/IMG_20211130_135331_787.jpg,False,False
+0aeef6bacf58f2b7126487a93dfa521b16f9cd5e926c34da4d08e48d0e317ca2,img_0420,img_0420,0,Poppy seed adulteration detection/Poppy seed background(white)/4X/IMG_20211130_135445_875(1).jpg,False,False
+0aeef6bacf58f2b7126487a93dfa521b16f9cd5e926c34da4d08e48d0e317ca2,img_0421,img_0420,0,Poppy seed adulteration detection/Poppy seed background(white)/4X/IMG_20211130_135445_875.jpg,False,False
+7b808123ba323cc7bae50a5806326930e1d71e75e9145fee5a41b803aafd95d6,img_0422,img_0422,0,Poppy seed adulteration detection/Poppy seed background(white)/4X/IMG_20211130_135501_722.jpg,False,True
+7b808123ba323cc7bae50a5806326930e1d71e75e9145fee5a41b803aafd95d6,img_0429,img_0422,0,Poppy seed adulteration detection/Poppy seed background(white)/Micro/IMG_20211130_135501_722.jpg,False,True
+6060cb0e402a11bb704ddd8bd04557cabe6d17785a60d96edb7f94f843ec4e89,img_0423,img_0423,0,Poppy seed adulteration detection/Poppy seed background(white)/4X/IMG_20211130_135504_631.jpg,False,True
+6060cb0e402a11bb704ddd8bd04557cabe6d17785a60d96edb7f94f843ec4e89,img_0430,img_0423,0,Poppy seed adulteration detection/Poppy seed background(white)/Micro/IMG_20211130_135504_631.jpg,False,True
+afe8e2ff2bcc313db16869a5cb64eef5037936be9142dcb625f1ebdcb687232a,img_0424,img_0424,0,Poppy seed adulteration detection/Poppy seed background(white)/4X/IMG_20211130_135532_085.jpg,False,True
+afe8e2ff2bcc313db16869a5cb64eef5037936be9142dcb625f1ebdcb687232a,img_0436,img_0424,0,Poppy seed adulteration detection/Poppy seed background(white)/Micro/IMG_20211130_135532_085.jpg,False,True
+11593b507b814eb1586effd2fab9c7904ddfe3c11734bdc132e7ecf245dfa1db,img_0425,img_0425,0,Poppy seed adulteration detection/Poppy seed background(white)/4X/IMG_20211130_135542_532.jpg,False,True
+11593b507b814eb1586effd2fab9c7904ddfe3c11734bdc132e7ecf245dfa1db,img_0440,img_0425,0,Poppy seed adulteration detection/Poppy seed background(white)/Micro/IMG_20211130_135542_532.jpg,False,True

@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "model_version": "poppypure-v1",
+  "percentage_basis": "volume",
+  "archive_name": "poppypure-v1.zip",
+  "archive_bytes": 42856775,
+  "archive_sha256": "adc394eac6a7fcdede9ee146242f389a22100b2548f8068ed567221090069d9c",
+  "archive_files": 52,
+  "release_manifest_sha256": "5996c9027afb6b39a74d923ca2cf83b1b4ec5445c029d45f662c89965dff5cd1",
+  "checkpoint_sha256": "520d47d80da1c3d8f5c2d689974a6ecbceee792dba41eae4c162fd072b4d69d1",
+  "extract_into": "repository root",
+  "archive_prefix": "models/poppypure-v1/"
+}

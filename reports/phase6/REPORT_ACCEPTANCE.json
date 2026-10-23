@@ -1,0 +1,21 @@
+{
+  "bootstrap_replicates": 2000,
+  "checkpoint_sha256": "520d47d80da1c3d8f5c2d689974a6ecbceee792dba41eae4c162fd072b4d69d1",
+  "figure_files_verified": 10,
+  "fixed_epochs": 28,
+  "fresh_environment_inference_passed": true,
+  "model_unchanged_after_test": true,
+  "model_version": "poppypure-v1",
+  "phase5_selection_manifest_and_split_unchanged": true,
+  "prediction_metrics_and_saved_logits_match": true,
+  "primary_correct": 75,
+  "reference_correct": 74,
+  "refit_images": 466,
+  "release_checksums_verified": true,
+  "runtime_source_matches_sealed_snapshot": true,
+  "status": "passed",
+  "test_errors": 7,
+  "test_images": 82,
+  "test_preparation_units": 82,
+  "test_rescored": false
+}

@@ -1,0 +1,11 @@
+# Keep source line endings stable on macOS and Windows.
+* text=auto eol=lf
+
+# Frozen manifests/splits/config records have byte-level checksums.
+*.csv -text whitespace=cr-at-eol
+*.json -text
+
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.pdf binary

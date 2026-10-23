@@ -1,0 +1,101 @@
+{
+  "id": "nx8m9kxy26",
+  "doi": {
+    "id": "10.17632/nx8m9kxy26.1",
+    "status": "allocated",
+    "prefix": "10.17632"
+  },
+  "name": "A Rigorous Feature Engineering Framework and Deployment for Poppy Seed Adulteration Detection",
+  "description": "A special group of data was built to\nshow how semolina adulteration in poppy seeds happens in real life. The data is put\ninto groups that show the amount of semolina by volume: 0%, 10%, 20%, 30%, 40%,\n50%, and 100% (pure semolina)",
+  "version": 1,
+  "contributors": [
+    {
+      "profile_id": "d0c87a5b-19f3-4c66-b5a2-f37c35795428",
+      "first_name": "DEBAYAN",
+      "last_name": "GANGULY"
+    },
+    {
+      "institution": {
+        "id": "184edac0-ab76-45f6-b39c-01adcd7729b8",
+        "name": "West Bengal State Council of Technical Education",
+        "ror_id": "https://ror.org/00dfbm658"
+      },
+      "profile_id": "8b663158-c3ae-33d1-ad64-dfaf3ceab24a",
+      "first_name": "Tanmay",
+      "last_name": "Sarkar"
+    }
+  ],
+  "files": [
+    {
+      "filename": "dataset-20260720T062221Z-1-001.zip",
+      "id": "e637b123-c3f9-49ec-bc08-97536cb7921d",
+      "content_details": {
+        "id": "7d019668-8c82-4729-8bcb-ec94568c429a",
+        "sha256_hash": "0a92acba4c2986c3543f0a98c2cea8f98048358d6c772ddd181a993fc7c5f6ed",
+        "content_type": "application/x-zip-compressed",
+        "size": 1171851623,
+        "created_date": "2026-07-20T06:30:59.16Z",
+        "download_url": "https://data.mendeley.com/public-files/datasets/nx8m9kxy26/files/e637b123-c3f9-49ec-bc08-97536cb7921d/file_downloaded",
+        "view_url": "https://data.mendeley.com/public-files/datasets/nx8m9kxy26/files/e637b123-c3f9-49ec-bc08-97536cb7921d/file_viewed",
+        "download_expiry_time": "2126-10-12T21:12:30.484247642Z"
+      },
+      "metrics": {
+        "downloads": 0,
+        "previews": 0
+      },
+      "size": 1171851623,
+      "status": "COMPLETED"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "available": true,
+      "publish_date": "2026-07-21T10:04:45.423Z"
+    }
+  ],
+  "articles": [],
+  "categories": [
+    {
+      "id": "data.elsevier.com/vocabulary/OmniScience/Concept-256997396",
+      "label": "Food Adulteration"
+    }
+  ],
+  "institutions": [],
+  "metrics": {
+    "views": 0,
+    "file_downloads": 0,
+    "file_previews": 0
+  },
+  "available": true,
+  "size": 1171851623,
+  "owner": {
+    "profile_id": "d0c87a5b-19f3-4c66-b5a2-f37c35795428",
+    "first_name": "DEBAYAN",
+    "last_name": "GANGULY"
+  },
+  "channel": "WEB",
+  "owner_id": "d0c87a5b-19f3-4c66-b5a2-f37c35795428",
+  "publish_date": "2026-07-21T10:04:45.423Z",
+  "data_licence": {
+    "id": "01d9c749-3c4d-4431-9df3-620b2dcfe144",
+    "description": "You can share, copy and modify this dataset so long as you give appropriate credit, provide a link to the CC BY license, and indicate if changes were made, but you may not do so in a way that suggests the rights holder has endorsed you or your use of the dataset. Note that further permission may be required for any content within the dataset that is identified as belonging to a third party.",
+    "url": "http://creativecommons.org/licenses/by/4.0",
+    "category": "Creative",
+    "short_name": "CC BY 4.0",
+    "full_name": "Creative Commons Attribution 4.0 International"
+  },
+  "related_links": [],
+  "funders": [],
+  "customer_id": "7377952c-6404-4428-bbfc-77242cfc301e",
+  "modified_on": "2026-07-20T06:34:23.982Z",
+  "created_on": "2026-07-20T06:10:28.702Z",
+  "confidential": false,
+  "links": {
+    "view": "https://data.mendeley.com/datasets/nx8m9kxy26"
+  },
+  "repository": {
+    "id": "MENDELEY_DATA",
+    "name": "Mendeley Data"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "artifacts": {
+    "assignments.csv": "3449fc97895ace87a23107b18a6c5640bf4243bbb8f7924ae7785e83631370cf",
+    "protocol.json": "6d9cbc16b80f77629e2fc09c894bdef11f65ae7b832ed1b7096c99ed1afc88b8"
+  },
+  "manifest_sha256": "d5358c61f2f42c4dbd5c4efc92e4d62ba54caff998ecbf631f665e7e1fbc5829",
+  "protocol_id": "user_confirmed_preparations_condition_holdout_v3"
+}

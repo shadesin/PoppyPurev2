@@ -1,0 +1,36 @@
+{
+  "canonical": {
+    "dataset_id": "p2gvvnh8y4",
+    "version": 1,
+    "doi": "10.17632/p2gvvnh8y4.1",
+    "url": "https://data.mendeley.com/datasets/p2gvvnh8y4/1",
+    "api_url": "https://data.mendeley.com/public-api/datasets/p2gvvnh8y4",
+    "title": "Digital Image dataset for Poppy seed adulteration with Semolina",
+    "contributors": ["Tanmay Sarkar", "Alok Mukherjee", "Kingshuk Chatterjee"],
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "published": "2023-06-15",
+    "original_filename": "Poppy seed adulteration detection-20230602T064002Z-001.zip",
+    "local_filename": "p2gvvnh8y4-v1.zip",
+    "file_id": "b52523c0-2b25-4841-882f-b39c7dcbc8cc",
+    "download_url": "https://data.mendeley.com/public-files/datasets/p2gvvnh8y4/files/b52523c0-2b25-4841-882f-b39c7dcbc8cc/file_downloaded",
+    "size_bytes": 1405891275,
+    "sha256": "0b29d07414e8e6d85f899e22c3464d61f456336799144ec3ce129d8b0bb3000d"
+  },
+  "related_subset": {
+    "dataset_id": "nx8m9kxy26",
+    "version": 1,
+    "doi": "10.17632/nx8m9kxy26.1",
+    "url": "https://data.mendeley.com/datasets/nx8m9kxy26/1",
+    "api_url": "https://data.mendeley.com/public-api/datasets/nx8m9kxy26",
+    "title": "A Rigorous Feature Engineering Framework and Deployment for Poppy Seed Adulteration Detection",
+    "contributors": ["Debayan Ganguly", "Tanmay Sarkar"],
+    "license": "CC BY 4.0",
+    "published": "2026-07-21",
+    "description": "The data is put into groups that show the amount of semolina by volume: 0%, 10%, 20%, 30%, 40%, 50%, and 100% (pure semolina)",
+    "size_bytes": 1171851623,
+    "download_url": "https://data.mendeley.com/public-files/datasets/nx8m9kxy26/files/e637b123-c3f9-49ec-bc08-97536cb7921d/file_downloaded",
+    "sha256": "0a92acba4c2986c3543f0a98c2cea8f98048358d6c772ddd181a993fc7c5f6ed",
+    "use": "Label provenance only; do not add its images as independent observations."
+  }
+}

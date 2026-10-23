@@ -1,0 +1,102 @@
+{
+  "challenge_tests": {
+    "background": "One final black-to-white transfer; no reverse experiment during development",
+    "capture_session": "Not a valid independent challenge: dates confounded with class and preparation unknown; descriptive counts only",
+    "magnification": "Two development transfer folds; final holdout by folder tag excluding four ambiguous tags from subgroup scores only",
+    "shortcut_controls": "Phase 4 metadata-only and background-only models use the same development folds"
+  },
+  "classes_volume_percent": [
+    0,
+    10,
+    20,
+    30,
+    40,
+    50,
+    100
+  ],
+  "counts": {
+    "development": {
+      "by_class": {
+        "0": 40,
+        "10": 40,
+        "100": 41,
+        "20": 36,
+        "30": 40,
+        "40": 40,
+        "50": 40
+      },
+      "condition_blocks": 14,
+      "images": 277
+    },
+    "holdout": {
+      "by_class": {
+        "0": 33,
+        "10": 41,
+        "100": 39,
+        "20": 37,
+        "30": 40,
+        "40": 41,
+        "50": 40
+      },
+      "condition_blocks": 14,
+      "images": 271
+    }
+  },
+  "development_folds": [
+    {
+      "fold": "4x",
+      "train": "black micro",
+      "validation": "black 4x"
+    },
+    {
+      "fold": "micro",
+      "train": "black 4x",
+      "validation": "black micro"
+    }
+  ],
+  "evaluation_group_rule": "volume x background x folder magnification; broad blocks, not independent preparations",
+  "holdout_access": "All images visually audited in Phase 1. No white-image feature design, mask review, tuning, training, calibration, or model selection after this freeze. Score locked winner once in Phase 6; preserve predictions. Any later change requires a new exploratory result with disclosed reuse.",
+  "label_meaning": "semolina adulteration percentage by volume",
+  "leakage_rules": [
+    "Fit scalers, PCA, feature selectors, learned preprocessing and class weights on each training fold only",
+    "Split before tiles/crops/augmentation; descendants inherit source membership; aggregate tiles to one image prediction",
+    "Known same-scene pair stays together; unknown overlap across blocks cannot be ruled out",
+    "No date, filename, path, EXIF or background tags as inputs to the visual classifier",
+    "Do not calibrate probabilities or claim verified confidence without independent calibration data"
+  ],
+  "manifest_sha256": "d5358c61f2f42c4dbd5c4efc92e4d62ba54caff998ecbf631f665e7e1fbc5829",
+  "membership_rule": "black -> development; white -> final holdout; never randomly split photographs",
+  "metrics": {
+    "balanced_accuracy": "Mean class recall; undefined when any true class missing",
+    "binary": "Map seven-class argmax to 0=pure, >0=adulterated; sensitivity=TP/(TP+FN), specificity=TN/(TN+FP); undefined denominators -> null",
+    "confusion_matrix": "Rows=true, columns=predicted; fixed class order",
+    "macro_f1": "All seven labels, zero_division=0",
+    "per_class": "precision, recall, F1, support",
+    "volume_mae_pp": "Mean absolute difference between predicted and true volume class; not continuous concentration estimation"
+  },
+  "preparation_evaluation": {
+    "conservative_groups": 7,
+    "feasible": false,
+    "groups_per_class": {
+      "0": 1,
+      "10": 1,
+      "100": 1,
+      "20": 1,
+      "30": 1,
+      "40": 1,
+      "50": 1
+    },
+    "reason": "One conservative group per class; holding one out removes its training class. Independent preparation count is unknown."
+  },
+  "protocol_id": "black_development_white_holdout_v1",
+  "review_decisions_sha256": "12feae5d7368ed06307288b4071d7afa1bcdcaeea6603f8d655396dbeafc5d01",
+  "schema_version": 1,
+  "scope": "Internal capture-condition transfer; unseen preparations not evaluated",
+  "selection": {
+    "early_stopping": "Use a preregistered fixed epoch schedule; do not use outer validation fold for checkpoint selection",
+    "final_fit": "Refit locked pipeline on all black images; white images never fitted",
+    "primary_metric": "mean of two development-fold seven-class macro_f1 values",
+    "tie_break": "If within 0.005 macro F1, prefer fewer fitted parameters, then shorter measured training time"
+  },
+  "uncertainty": "No confidence intervals claiming independent photos or preparations; report two fold scores/range and condition-block counts descriptively"
+}

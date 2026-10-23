@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "archive_sha256": "0b29d07414e8e6d85f899e22c3464d61f456336799144ec3ce129d8b0bb3000d",
+  "manifest_sha256": "d5358c61f2f42c4dbd5c4efc92e4d62ba54caff998ecbf631f665e7e1fbc5829",
+  "review_decisions_sha256": "12feae5d7368ed06307288b4071d7afa1bcdcaeea6603f8d655396dbeafc5d01",
+  "included_images": 548,
+  "classes_volume_percent": [
+    0,
+    10,
+    20,
+    30,
+    40,
+    50,
+    100
+  ],
+  "grouping_limitation": "Preparation IDs are absent. Class-level conservative groups do not allow seven-class evaluation on unseen preparations. Capture groups are metadata only, not proven independent samples."
+}

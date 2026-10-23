@@ -1,0 +1,12 @@
+{
+  "plots/refit_learning_curves.pdf": "bb4d2a2c036eb16e5503d575ca372444e8de1ab8493c48dfd1b8a20549100301",
+  "plots/refit_learning_curves.png": "46a6f751a4b256db0dd5b5d076aadb8e3daffa3f5d9d8371cf1fbe9618015a83",
+  "plots/test_conditions.pdf": "7f614ec782eea87c72b43cbc982600548800900a28d089fe9abc8fdf88ce4a8e",
+  "plots/test_conditions.png": "29eed91304552618511ac5c438a99d6c5762ec1f1397477a4941bf2bdae32d21",
+  "plots/test_confusion_matrix.pdf": "053bb72f4250e6ea00fa498be670a9930b47d425038dfa1264cbd4baa2b457b9",
+  "plots/test_confusion_matrix.png": "64b70e5a3f0436e0c15be34961eaff0cee5995e018a08662b79477c1494251f4",
+  "plots/test_per_class.pdf": "220d085d51a0170bf4d9232cb034275e97000c805c672a9b012a6bea801d21ca",
+  "plots/test_per_class.png": "0c7f6e93963d56bba31f4caae9fece94de9c52413fc7be2c4f1c5b93568dfd3a",
+  "plots/test_reference_comparison.pdf": "68ccc71f197af22ea4abd549a70a0204b57beaf472d9a19ef7acd2417ae9878b",
+  "plots/test_reference_comparison.png": "6378337fc0251dc9ec28e8e8c75332462d4735b89a518fc118f8fe3b2c4abaa5"
+}

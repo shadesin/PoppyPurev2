@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "seed": 42,
+  "training_features": "data/features/v1",
+  "validation_features": "data/features/validation-v1",
+  "primary_metric": "macro_f1",
+  "near_tie": 0.005,
+  "screening": {"representations": ["whole", "crop", "crop_detail"], "families": ["colour", "texture", "combined"], "C": 1.0},
+  "logistic": {"solver": "lbfgs", "max_iter": 3000, "tol": 0.0001},
+  "svm": {"C_values": [0.1, 1.0, 10.0], "kernel": "rbf", "gamma": "scale", "probability": false},
+  "forest": {"n_estimators": 300, "min_samples_leaf": 2, "max_depth_values": [8, null], "n_jobs": 1},
+  "mlp": {"hidden_layer_sizes": [64], "activation": "relu", "solver": "adam", "alpha": 0.01, "learning_rate_init": 0.001, "batch_size": 32, "max_epochs": 200, "patience": 20, "early_stopping": false},
+  "low_gradient_control": {"long_side": 256, "gradient_quantile": 0.2, "colour_bins": 16, "border_exclusion_pixels": 2},
+  "selection": "Max validation macro F1; candidates within 0.005 prefer fewer fitted parameters then training time; stable run ID final tie break",
+  "fitted_parameter_count": "LR/MLP weights+biases; SVC support-vector coordinates+dual weights+intercepts; forest internal split features/thresholds+leaf class distributions; preprocessing statistics counted separately",
+  "device": "CPU",
+  "thread_limit": 1,
+  "visual_configurations": 21,
+  "control_configurations": 4
+}

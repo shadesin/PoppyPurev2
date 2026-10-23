@@ -1,0 +1,35 @@
+{
+  "interval_percentiles": [
+    2.5,
+    97.5
+  ],
+  "intervals": {
+    "accuracy_difference": [
+      -0.060975609756097615,
+      0.08536585365853655
+    ],
+    "macro_f1_difference": [
+      -0.06233071845338927,
+      0.09461291521439497
+    ],
+    "primary_accuracy": [
+      0.8536585365853658,
+      0.9634146341463414
+    ],
+    "primary_macro_f1": [
+      0.8510989500855469,
+      0.9641496598639456
+    ],
+    "reference_accuracy": [
+      0.8536585365853658,
+      0.9512195121951219
+    ],
+    "reference_macro_f1": [
+      0.8370888676540851,
+      0.9511053129065551
+    ]
+  },
+  "method": "percentile bootstrap of preparation units within true class",
+  "replicates": 2000,
+  "seed": 1042
+}

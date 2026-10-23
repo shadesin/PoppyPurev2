@@ -1,0 +1,13 @@
+{
+  "status": "accepted_for_declared_comparison",
+  "partition": "train",
+  "images_reviewed": 28,
+  "sheets_reviewed": ["black_4x.jpg", "black_micro.jpg", "white_4x.jpg", "white_micro.jpg"],
+  "observations": [
+    "Overview letterboxing preserves grain aspect ratios; neutral padding is visible only outside image content.",
+    "Five native detail regions preserve visible grain structure at the CNN input size.",
+    "No camera text is visible in the reviewed cropped inputs.",
+    "Focus, brightness, packing and background remain variable; no masking or colour correction was enabled."
+  ],
+  "test_used": false
+}

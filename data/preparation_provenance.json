@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "source": "user_confirmation",
+  "statement": "Take my word: the images are individually prepared mixtures.",
+  "interpretation": "Treat retained source images as individually prepared mixtures, merging any confirmed same-scene views into one evaluation unit.",
+  "supersedes": "Earlier assumption that missing preparation identifiers prevented evaluation on separate preparations.",
+  "known_same_scene_pairs": [["img_0181", "img_0198"]],
+  "exact_duplicate_policy": "Retain the Phase 1 exclusion of seven extra exact copies."
+}

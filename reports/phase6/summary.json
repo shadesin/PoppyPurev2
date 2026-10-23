@@ -1,0 +1,290 @@
+{
+  "figure_files": 10,
+  "figures": {
+    "plots/refit_learning_curves.pdf": "bb4d2a2c036eb16e5503d575ca372444e8de1ab8493c48dfd1b8a20549100301",
+    "plots/refit_learning_curves.png": "46a6f751a4b256db0dd5b5d076aadb8e3daffa3f5d9d8371cf1fbe9618015a83",
+    "plots/test_conditions.pdf": "7f614ec782eea87c72b43cbc982600548800900a28d089fe9abc8fdf88ce4a8e",
+    "plots/test_conditions.png": "29eed91304552618511ac5c438a99d6c5762ec1f1397477a4941bf2bdae32d21",
+    "plots/test_confusion_matrix.pdf": "053bb72f4250e6ea00fa498be670a9930b47d425038dfa1264cbd4baa2b457b9",
+    "plots/test_confusion_matrix.png": "64b70e5a3f0436e0c15be34961eaff0cee5995e018a08662b79477c1494251f4",
+    "plots/test_per_class.pdf": "220d085d51a0170bf4d9232cb034275e97000c805c672a9b012a6bea801d21ca",
+    "plots/test_per_class.png": "0c7f6e93963d56bba31f4caae9fece94de9c52413fc7be2c4f1c5b93568dfd3a",
+    "plots/test_reference_comparison.pdf": "68ccc71f197af22ea4abd549a70a0204b57beaf472d9a19ef7acd2417ae9878b",
+    "plots/test_reference_comparison.png": "6378337fc0251dc9ec28e8e8c75332462d4735b89a518fc118f8fe3b2c4abaa5"
+  },
+  "model_version": "poppypure-v1",
+  "primary": {
+    "accuracy": 0.9146341463414634,
+    "balanced_accuracy": 0.9145021645021646,
+    "binary": {
+      "fn": 1,
+      "fp": 0,
+      "sensitivity": 0.9859154929577465,
+      "specificity": 1.0,
+      "tn": 11,
+      "tp": 70
+    },
+    "classes_volume_percent": [
+      0,
+      10,
+      20,
+      30,
+      40,
+      50,
+      100
+    ],
+    "confusion_matrix": [
+      [
+        11,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        11,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        9,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        10,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        11,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        11,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        12
+      ]
+    ],
+    "cross_entropy": 0.2290377914905548,
+    "macro_f1": 0.9138361431529134,
+    "per_class": {
+      "0": {
+        "f1": 0.9565217391304348,
+        "precision": 0.9166666666666666,
+        "recall": 1.0,
+        "support": 11
+      },
+      "10": {
+        "f1": 0.9166666666666666,
+        "precision": 0.9166666666666666,
+        "recall": 0.9166666666666666,
+        "support": 12
+      },
+      "100": {
+        "f1": 0.96,
+        "precision": 0.9230769230769231,
+        "recall": 1.0,
+        "support": 12
+      },
+      "20": {
+        "f1": 0.8571428571428571,
+        "precision": 0.9,
+        "recall": 0.8181818181818182,
+        "support": 11
+      },
+      "30": {
+        "f1": 0.8333333333333334,
+        "precision": 0.8333333333333334,
+        "recall": 0.8333333333333334,
+        "support": 12
+      },
+      "40": {
+        "f1": 0.9166666666666666,
+        "precision": 0.9166666666666666,
+        "recall": 0.9166666666666666,
+        "support": 12
+      },
+      "50": {
+        "f1": 0.9565217391304348,
+        "precision": 1.0,
+        "recall": 0.9166666666666666,
+        "support": 12
+      }
+    },
+    "volume_mae_pp": 1.3414634146341464
+  },
+  "primary_checkpoint_sha256": "520d47d80da1c3d8f5c2d689974a6ecbceee792dba41eae4c162fd072b4d69d1",
+  "reference": {
+    "accuracy": 0.9024390243902439,
+    "balanced_accuracy": 0.9036796536796537,
+    "binary": {
+      "fn": 1,
+      "fp": 0,
+      "sensitivity": 0.9859154929577465,
+      "specificity": 1.0,
+      "tn": 11,
+      "tp": 70
+    },
+    "classes_volume_percent": [
+      0,
+      10,
+      20,
+      30,
+      40,
+      50,
+      100
+    ],
+    "confusion_matrix": [
+      [
+        11,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        12,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        10,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        1,
+        10,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        2,
+        7,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        12,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        12
+      ]
+    ],
+    "macro_f1": 0.8975867763053118,
+    "per_class": {
+      "0": {
+        "f1": 0.9565217391304348,
+        "precision": 0.9166666666666666,
+        "recall": 1.0,
+        "support": 11
+      },
+      "10": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 12
+      },
+      "100": {
+        "f1": 0.9230769230769231,
+        "precision": 0.8571428571428571,
+        "recall": 1.0,
+        "support": 12
+      },
+      "20": {
+        "f1": 0.8333333333333334,
+        "precision": 0.7692307692307693,
+        "recall": 0.9090909090909091,
+        "support": 11
+      },
+      "30": {
+        "f1": 0.8333333333333334,
+        "precision": 0.8333333333333334,
+        "recall": 0.8333333333333334,
+        "support": 12
+      },
+      "40": {
+        "f1": 0.7368421052631579,
+        "precision": 1.0,
+        "recall": 0.5833333333333334,
+        "support": 12
+      },
+      "50": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 12
+      }
+    },
+    "volume_mae_pp": 2.926829268292683
+  },
+  "refit_epochs": 28,
+  "refit_images": 466,
+  "source_test_record_sha256": "6fdc9e062b6caba5f8693101c161e99fad832419ed9c2e2677abda7f09879ad8",
+  "status": "complete",
+  "test_errors": 7,
+  "test_images": 82,
+  "test_used": true,
+  "validation_during_refit": false
+}

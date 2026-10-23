@@ -1,0 +1,107 @@
+{
+  "challenge_tests": {
+    "background": "Development white 4x fold checks black-to-white transfer with magnification shift mixed in; no isolated full-background final test",
+    "capture_session": "Capture dates are class-confounded; descriptive date counts only",
+    "magnification": "Three development condition-transfer folds; final test is held-out white Micro combination, not pure magnification transfer. Four conflicting white 4x tags retained by folder membership; omit from magnification-specific summaries only, retain all main fold scores.",
+    "shortcut_controls": "Phase 4 metadata-only and background-only models use the same development folds"
+  },
+  "classes_volume_percent": [
+    0,
+    10,
+    20,
+    30,
+    40,
+    50,
+    100
+  ],
+  "counts": {
+    "development": {
+      "by_class": {
+        "0": 57,
+        "10": 60,
+        "100": 60,
+        "20": 56,
+        "30": 60,
+        "40": 61,
+        "50": 60
+      },
+      "condition_blocks": 21,
+      "images": 414
+    },
+    "holdout": {
+      "by_class": {
+        "0": 16,
+        "10": 21,
+        "100": 20,
+        "20": 17,
+        "30": 20,
+        "40": 20,
+        "50": 20
+      },
+      "condition_blocks": 7,
+      "images": 134
+    }
+  },
+  "development_folds": [
+    {
+      "fold": "black_4x",
+      "train": "other two development conditions",
+      "validation": "black_4x"
+    },
+    {
+      "fold": "black_micro",
+      "train": "other two development conditions",
+      "validation": "black_micro"
+    },
+    {
+      "fold": "white_4x",
+      "train": "other two development conditions",
+      "validation": "white_4x"
+    }
+  ],
+  "evaluation_group_rule": "Class/background/folder condition blocks; preparation units are separate and derived from user confirmation plus reviewed scenes",
+  "holdout_access": "All images visually audited in Phase 1. No model fitting, processing design or scoring preceded this revision. White 4x is now development; white Micro remains held out. Do not use white Micro for mask review, feature design, tuning, training, calibration or model selection. Score locked winner once in Phase 6; later reuse is exploratory.",
+  "label_meaning": "semolina adulteration percentage by volume",
+  "leakage_rules": [
+    "Fit scalers, PCA, feature selectors, learned preprocessing and class weights on each training fold only",
+    "Split before tiles/crops/augmentation; descendants inherit source membership; aggregate tiles to one image prediction",
+    "Known same-scene views share one preparation unit and evaluation block",
+    "No date, filename, path, EXIF or background tags as inputs to the visual classifier",
+    "Do not calibrate probabilities or claim verified confidence without independent calibration data"
+  ],
+  "manifest_sha256": "d5358c61f2f42c4dbd5c4efc92e4d62ba54caff998ecbf631f665e7e1fbc5829",
+  "membership_rule": "white Micro -> final holdout (134); black 4x, black Micro, white 4x -> development (414); no random photograph split",
+  "metrics": {
+    "balanced_accuracy": "Mean class recall; undefined when any true class missing",
+    "binary": "Map seven-class argmax to 0=pure, >0=adulterated; sensitivity=TP/(TP+FN), specificity=TN/(TN+FP); undefined denominators -> null",
+    "confusion_matrix": "Rows=true, columns=predicted; fixed class order",
+    "macro_f1": "All seven labels, zero_division=0",
+    "per_class": "precision, recall, F1, support",
+    "volume_mae_pp": "Mean absolute difference between predicted and true volume class; not continuous concentration estimation"
+  },
+  "post_evaluation_refit": "After preserving final evaluation and its 414-image model, a separately versioned deployment model may refit the unchanged recipe on all 548 images. It has no untouched test set; never attach the prior score to it as a direct evaluation.",
+  "preparation_evaluation": {
+    "feasible": true,
+    "group_rule": "One retained image per unit; confirmed same-scene views merged",
+    "preparation_units": 547,
+    "source": "user_confirmation"
+  },
+  "preparation_provenance": {
+    "path": "data/preparation_provenance.json",
+    "sha256": "5bcb4ca74cd251a14d57afacbbd44cba30a661beeb786e39c3d252630b511b95",
+    "source": "user_confirmation"
+  },
+  "protocol_id": "user_confirmed_preparations_condition_holdout_v3",
+  "review_decisions_sha256": "12feae5d7368ed06307288b4071d7afa1bcdcaeea6603f8d655396dbeafc5d01",
+  "revision_reason": "User confirms images represent individually prepared mixtures; replace missing-preparation assumption while preserving deduplication.",
+  "schema_version": 1,
+  "scope": "Seven-class by-volume evaluation using user-confirmed individual preparations, with a held-out white Micro capture condition",
+  "selection": {
+    "early_stopping": "Use a preregistered fixed epoch schedule; do not use outer validation fold for checkpoint selection",
+    "final_fit": "Refit locked pipeline on all 414 development images; 134 white Micro holdout images never fitted",
+    "primary_metric": "mean of three development-fold seven-class macro_f1 values",
+    "tie_break": "If within 0.005 macro F1, prefer fewer fitted parameters, then shorter measured training time"
+  },
+  "supersedes": "three_conditions_development_white_micro_holdout_v2",
+  "uncertainty": "Report all three fold scores and condition summaries. If bootstrapping final metrics, resample preparation units."
+}

@@ -1,0 +1,22 @@
+{
+  "cold_and_warm_forward_seconds": [
+    1.078010291326791,
+    0.0335183753632009,
+    0.01456225011497736
+  ],
+  "cpu": "Apple M4",
+  "device": "mps",
+  "input_shape": [
+    1,
+    5,
+    3,
+    224,
+    224
+  ],
+  "memory_bytes": 17179869184,
+  "output_shape": [
+    1,
+    512
+  ],
+  "test_used": false
+}

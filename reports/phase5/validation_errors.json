@@ -1,0 +1,74 @@
+[
+  {
+    "image_id": "img_0092",
+    "predicted_volume_percent": "0",
+    "probability_0": "0.6772196888923645",
+    "probability_10": "0.00028895982541143894",
+    "probability_100": "2.7359340037946822e-06",
+    "probability_20": "0.32193419337272644",
+    "probability_30": "0.0004434528236743063",
+    "probability_40": "5.4063504649093375e-05",
+    "probability_50": "5.683751805918291e-05",
+    "true_volume_percent": "20"
+  },
+  {
+    "image_id": "img_0136",
+    "predicted_volume_percent": "30",
+    "probability_0": "0.014623221941292286",
+    "probability_10": "0.00023390157730318606",
+    "probability_100": "2.165687328670174e-05",
+    "probability_20": "0.055148977786302567",
+    "probability_30": "0.9287438988685608",
+    "probability_40": "0.0009511523530818522",
+    "probability_50": "0.00027718680212274194",
+    "true_volume_percent": "20"
+  },
+  {
+    "image_id": "img_0139",
+    "predicted_volume_percent": "40",
+    "probability_0": "0.0001442752400180325",
+    "probability_10": "6.333303872452234e-07",
+    "probability_100": "2.5048166207852773e-05",
+    "probability_20": "0.012972678989171982",
+    "probability_30": "0.0017366110114380717",
+    "probability_40": "0.9849720597267151",
+    "probability_50": "0.00014873611507937312",
+    "true_volume_percent": "20"
+  },
+  {
+    "image_id": "img_0191",
+    "predicted_volume_percent": "50",
+    "probability_0": "3.93972823076183e-06",
+    "probability_10": "3.970080797444098e-05",
+    "probability_100": "0.010914918035268784",
+    "probability_20": "6.797460810048506e-05",
+    "probability_30": "0.049020592123270035",
+    "probability_40": "0.10190067440271378",
+    "probability_50": "0.8380522727966309",
+    "true_volume_percent": "30"
+  },
+  {
+    "image_id": "img_0269",
+    "predicted_volume_percent": "30",
+    "probability_0": "1.1330767847539391e-05",
+    "probability_10": "1.3929715123595088e-06",
+    "probability_100": "3.589318657759577e-05",
+    "probability_20": "0.0006485899793915451",
+    "probability_30": "0.9650075435638428",
+    "probability_40": "0.03348451107740402",
+    "probability_50": "0.0008108171750791371",
+    "true_volume_percent": "40"
+  },
+  {
+    "image_id": "img_0272",
+    "predicted_volume_percent": "30",
+    "probability_0": "8.373204036615789e-05",
+    "probability_10": "6.641207437496632e-05",
+    "probability_100": "0.000932452327106148",
+    "probability_20": "0.002419640077278018",
+    "probability_30": "0.9275597333908081",
+    "probability_40": "0.032124631106853485",
+    "probability_50": "0.03681351989507675",
+    "true_volume_percent": "40"
+  }
+]

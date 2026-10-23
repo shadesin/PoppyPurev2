@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "seed": 42,
+  "classes_volume_percent": [0, 10, 20, 30, 40, 50, 100],
+  "backbones": {
+    "resnet18": {"weights": "IMAGENET1K_V1", "embedding_size": 512},
+    "resnet50": {"weights": "IMAGENET1K_V2", "embedding_size": 2048}
+  },
+  "preprocessing": {
+    "source_config": "configs/preprocessing-v1.json",
+    "input_size": 224,
+    "interpolation": "bilinear",
+    "resize": "aspect_preserving_letterbox",
+    "padding": "ImageNet mean in RGB",
+    "mean": [0.485, 0.456, 0.406],
+    "std": [0.229, 0.224, 0.225],
+    "mask": "none",
+    "representations": ["crop", "crop_detail"],
+    "detail_pooling": "mean of five source-region embeddings"
+  },
+  "embedding_batch_size": 32,
+  "cpu_threads": 4,
+  "head": {
+    "hidden_units": 128,
+    "dropout": 0.3,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "batch_size": 32,
+    "max_epochs": 50,
+    "patience": 8
+  },
+  "fine_tuning": {
+    "backbone_learning_rates": [0.00001, 0.00003],
+    "head_learning_rate": 0.0001,
+    "weight_decay": 0.0001,
+    "batch_size": 8,
+    "max_epochs": 20,
+    "patience": 5,
+    "trainable_backbone_block": "layer4",
+    "batchnorm_statistics": "frozen",
+    "augmentation": {"flips": true, "rotation_quarter_turns": true, "brightness": 0.1, "contrast": 0.1}
+  },
+  "selection": {"primary_metric": "validation_macro_f1", "near_tie": 0.005},
+  "test_used": false
+}

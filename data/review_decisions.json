@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex visual audit",
+  "image_review_method": "Each of the 14 loose images was inspected in a contact sheet. All show whole trays with grids, borders, and phone watermarks; they are retained as raw overview references, outside the primary 4x/micro close-up task.",
+  "grouping_policy": "Physical preparation IDs are unavailable. Conservatively keep all images of each volume class together. Capture date groups do not establish independent preparations.",
+  "full_image_review_method": "All seven class contact sheets and the final loose-image sheet were inspected after archive verification. Variation in grain scale, white balance, grid lines, borders, focus, and phone watermarks is visible. All 30 relative low-sharpness flags are retained for later preprocessing evaluation; no quality threshold was used to exclude images.",
+  "images": {
+    "Poppy seed adulteration detection/10_/Black background.jpg": {"decision": "excluded", "decision_reason": "whole-tray overview reference; retain raw, exclude from close-up training"},
+    "Poppy seed adulteration detection/10_/White background.jpg": {"decision": "excluded", "decision_reason": "whole-tray overview reference; retain raw, exclude from close-up training"},
+    "Poppy seed adulteration detection/20_/Black background.jpg": {"decision": "excluded", "decision_reason": "whole-tray overview reference; retain raw, exclude from close-up training"},
+    "Poppy seed adulteration detection/20_/White background.jpg": {"decision": "excluded", "decision_reason": "whole-tray overview reference; retain raw, exclude from close-up training"},
+    "Poppy seed adulteration detection/30_/Black background.jpg": {"decision": "excluded", "decision_reason": "whole-tray overview reference; retain raw, exclude from close-up training"},
+    "Poppy seed adulteration detection/30_/White background.jpg": {"decision": "excluded", "decision_reason": "whole-tray overview reference; retain raw, exclude from close-up training"},
+    "Poppy seed adulteration detection/40_/Black background.jpg": {"decision": "excluded", "decision_reason": "whole-tray overview reference; retain raw, exclude from close-up training"},
+    "Poppy seed adulteration detection/40_/White background.jpg": {"decision": "excluded", "decision_reason": "whole-tray overview reference; retain raw, exclude from close-up training"},
+    "Poppy seed adulteration detection/50_/Black background.jpg": {"decision": "excluded", "decision_reason": "whole-tray overview reference; retain raw, exclude from close-up training"},
+    "Poppy seed adulteration detection/50_/White background.jpg": {"decision": "excluded", "decision_reason": "whole-tray overview reference; retain raw, exclude from close-up training"},
+    "Poppy seed adulteration detection/Poppy seed background(white)/IMG_20211130_134821_143.jpg": {"decision": "excluded", "decision_reason": "whole-tray overview reference; retain raw, exclude from close-up training"},
+    "Poppy seed adulteration detection/Poppy seed background/Poppy seed_black background_.jpg": {"decision": "excluded", "decision_reason": "whole-tray overview reference; retain raw, exclude from close-up training"},
+    "Poppy seed adulteration detection/Suji background (black)/Black background.jpg": {"decision": "excluded", "decision_reason": "whole-tray overview reference; retain raw, exclude from close-up training"},
+    "Poppy seed adulteration detection/Suji background (white)/White background.jpg": {"decision": "excluded", "decision_reason": "whole-tray overview reference; retain raw, exclude from close-up training"}
+  },
+  "pairs": {
+    "img_0181|img_0198": "same_scene_shifted_view_keep_in_same_group"
+  },
+  "pair_review_notes": {
+    "img_0181|img_0198": "Both 30% black-background micro photos show the same distinctive grain and empty-space arrangement with a small view shift. Keep both raw photos and their volume labels, but never separate them across evaluation splits. They already share the conservative class group."
+  }
+}

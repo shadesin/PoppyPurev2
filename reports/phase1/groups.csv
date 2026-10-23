@@ -1,0 +1,8 @@
+group_id,volume_percent,included_images,physical_preparations
+volume_000_preparation_unknown,0,73,unknown; not an independent sample count
+volume_010_preparation_unknown,10,81,unknown; not an independent sample count
+volume_020_preparation_unknown,20,73,unknown; not an independent sample count
+volume_030_preparation_unknown,30,80,unknown; not an independent sample count
+volume_040_preparation_unknown,40,81,unknown; not an independent sample count
+volume_050_preparation_unknown,50,80,unknown; not an independent sample count
+volume_100_preparation_unknown,100,80,unknown; not an independent sample count

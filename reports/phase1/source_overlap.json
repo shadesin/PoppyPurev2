@@ -1,0 +1,7 @@
+{
+  "subset_image_entries": 474,
+  "subset_unique_crc_size_label_signatures": 468,
+  "matching_original_signatures": 468,
+  "unmatched_signatures": 0,
+  "method": "ZIP CRC32 + uncompressed file size + volume class; strong overlap evidence, not a SHA-256 identity proof"
+}

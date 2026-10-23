@@ -1,0 +1,52 @@
+{
+  "artifact_sha256": {
+    "all_run_comparison.pdf": "d86df5c9b98a14f9f629bae7ad083b5bf89b1863f9e2d928a872650e1428a541",
+    "all_run_comparison.png": "09e11ee1032f8c4d7fbc45aceb911ca49e2c483cc038b256fa54f0be11ec643e",
+    "mlp_input1_learning_curves.pdf": "e23ee1bc009fe9b527c3066ad2cd2b34a9b9e598e4213844079771e770a1bca8",
+    "mlp_input1_learning_curves.png": "f4474c4d1187494308c28a75908dae480603602b0e792450c21216454da8b9af",
+    "mlp_input2_learning_curves.pdf": "d07e7ea52ad3d50e7a245200103a074ad69531e0c7d47d2eb2fb3468195053eb",
+    "mlp_input2_learning_curves.png": "14b52f9331674b0c7128ebf2c8e3dcab1b0d7256b3bcba872de0557022b6df99",
+    "selected_svm_conditions.pdf": "53f9d64c8e1dfa287f578e63e62b6d2670351093d022e0a653ed77739632b22f",
+    "selected_svm_conditions.png": "646488c2d29f275fc2e44b35b1656439f3121efb66d9010dcb8a154e91264c8f",
+    "selected_svm_confusion_matrix.pdf": "573d07126564701dd7185ebffdfcf41269b1384c909e8d90abf6b812067f3086",
+    "selected_svm_confusion_matrix.png": "cc5de9eaee0bdc8610251b9aef8498323f8326de325a477baa902769755ec5f9",
+    "selected_svm_per_class.pdf": "1014f96f5d8a41056458beb39866c6aab58ba797a383c8be3ca5b795c971f1c6",
+    "selected_svm_per_class.png": "16a3e1ed3b003ed17c8f94343afdc9c9dfae17b5a3589598a256d35a88f1e283",
+    "training_validation_gap.pdf": "800e633cc7ac56411258ad32802e1ca7fce4c7aa77a43ddd7d6a5e175d7df22d",
+    "training_validation_gap.png": "53dce0ff6b296fbd94b9d14e93e7c8a47ad21f3e543615cb9c6e7f99b9d34d10"
+  },
+  "diagnostic_replays": [
+    {
+      "epochs": 77,
+      "identical_original_predictions": true,
+      "run_id": "mlp_input1",
+      "selected_epoch": 57
+    },
+    {
+      "epochs": 61,
+      "identical_original_predictions": true,
+      "run_id": "mlp_input2",
+      "selected_epoch": 41
+    }
+  ],
+  "figures": [
+    "mlp_input1_learning_curves.png",
+    "mlp_input1_learning_curves.pdf",
+    "mlp_input2_learning_curves.png",
+    "mlp_input2_learning_curves.pdf",
+    "selected_svm_confusion_matrix.png",
+    "selected_svm_confusion_matrix.pdf",
+    "selected_svm_per_class.png",
+    "selected_svm_per_class.pdf",
+    "all_run_comparison.png",
+    "all_run_comparison.pdf",
+    "training_validation_gap.png",
+    "training_validation_gap.pdf",
+    "selected_svm_conditions.png",
+    "selected_svm_conditions.pdf"
+  ],
+  "original_experiments": 25,
+  "split_sha256": "cf7e5f8e2ed1f7dd3537bd62c611f54bcc55decc0a5e8ad681f641a4f7db88c0",
+  "status": "completed",
+  "test_used": false
+}
