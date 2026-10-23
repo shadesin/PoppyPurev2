@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "status": "published_and_verified",
+  "repository": "shadesin/PoppyPurev2",
+  "release_id": 422196863,
+  "tag": "v1.0.0",
+  "release_url": "https://github.com/shadesin/PoppyPurev2/releases/tag/v1.0.0",
+  "release_commit": "2f5cfbf8fac89248b404c98f2b1da785b45af62a",
+  "published_at": "2026-10-23T18:50:15Z",
+  "verified_at_utc": "2026-10-23T18:53:45.528665+00:00",
+  "github_asset_digests_verified": true,
+  "public_download_links_verified": true,
+  "full_zip_redownload_completed": false,
+  "checkpoint_sha256": "520d47d80da1c3d8f5c2d689974a6ecbceee792dba41eae4c162fd072b4d69d1",
+  "assets": [
+    {
+      "name": "poppypure-v1.zip",
+      "bytes": 42856775,
+      "sha256": "adc394eac6a7fcdede9ee146242f389a22100b2548f8068ed567221090069d9c",
+      "download_url": "https://github.com/shadesin/PoppyPurev2/releases/download/v1.0.0/poppypure-v1.zip",
+      "public_http_status": 206,
+      "verification": "public link returns ZIP bytes; full content identity verified by GitHub SHA-256"
+    },
+    {
+      "name": "poppypure-v1.zip.sha256",
+      "bytes": 83,
+      "sha256": "47a145f43129463f641a4b9e1e58b8d8f29a731d295ca24ef373a03996c83c0f",
+      "download_url": "https://github.com/shadesin/PoppyPurev2/releases/download/v1.0.0/poppypure-v1.zip.sha256",
+      "public_http_status": 200,
+      "verification": "public checksum download matches local file"
+    }
+  ]
+}
